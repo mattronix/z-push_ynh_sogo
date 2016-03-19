@@ -63,24 +63,24 @@ define('CARDDAV_PORT', '443');
 // %u: replaced with the username
 // %d: replaced with the domain
 //   Add the trailing /
-define('CARDDAV_PATH', 'BAIKALPATH/card.php/addressbooks/%u/');
+define('CARDDAV_PATH', 'BAIKALPATH/dav/%u/Contacts/');
 
 // Server path to the default addressbook
 //  Mobile device will create new contacts here. It must be under CARDDAV_PATH
 // %u: replaced with the username
 // %d: replaced with the domain
 //   Add the trailing /
-define('CARDDAV_DEFAULT_PATH', 'BAIKALPATH/card.php/addressbooks/%u/default');
+define('CARDDAV_DEFAULT_PATH', 'BAIKALPATH/dav/%u/Contacts/personal');
 
 // Server path to the GAL addressbook. This addressbook is readonly and searchable by the user, but it will NOT be synced.
 // If you don't want GAL, comment it
 // %u: replaced with the username
 // %d: replaced with the domain
 //  Add the trailing /
-define('CARDDAV_GAL_PATH', '');
+define('CARDDAV_GAL_PATH', 'BAIKALPATH/dav/%u/Contacts/GAL');
 
 // Minimal length for the search pattern to do the real search.
-define('CARDDAV_GAL_MIN_LENGTH', 5);
+define('CARDDAV_GAL_MIN_LENGTH', 3);
 
 // Addressbook display name, the name showed in the mobile device
 // %u: replaced with the username
