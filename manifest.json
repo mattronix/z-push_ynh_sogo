@@ -1,13 +1,13 @@
 {
-    "name": "Z-Push",
+    "name": "Z-Push SOGo",
     "id": "z-push",
     "description": {
         "en": "Z-Push is an open-source application to synchronize ActiveSync",
         "fr": "Z-Push est un serveur open source de synchronisation ActiveSync" 
     },
     "developer": {
-        "name": "beudbeud",
-        "email": "beudbeud@beudibox.fr",
+        "name": "Matthew Frost",
+        "email": "mattronix@weho.st",
         "url": "https://z-push.org"
     },
     "multi_instance": "true",
